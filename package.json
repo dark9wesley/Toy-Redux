@@ -4,7 +4,8 @@
   "description": "仿写Redux",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
   },
   "author": "wesley97",
   "license": "MIT",
