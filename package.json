@@ -1,0 +1,11 @@
+{
+  "name": "@wesley97/toy-redux",
+  "version": "1.0.0",
+  "description": "仿写Redux",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "wesley97",
+  "license": "MIT"
+}
