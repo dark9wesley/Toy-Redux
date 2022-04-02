@@ -10,6 +10,8 @@
   "author": "wesley97",
   "license": "MIT",
   "devDependencies": {
+    "@babel/core": "^7.17.8",
+    "@babel/preset-env": "^7.16.11",
     "rollup": "^2.70.1",
     "rollup-plugin-babel": "^4.4.0"
   }

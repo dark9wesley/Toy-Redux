@@ -11,7 +11,7 @@ export default defineConfig([
     }, 
     plugins: [ // 使用插件
       babel({
-        excludes: 'node_modules/**', // 忽略node_modules文件夹
+        exclude: 'node_modules/**', // 忽略node_modules文件夹
       })
     ]
   },
