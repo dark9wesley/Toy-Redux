@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    // "allowJs": true,
+    "lib": ["ES6"]
+  },
+  "exclude": [
+    "node_modules", "lib"
+  ],
+  "include": [
+    "src/**/*"
+  ]
+}
