@@ -3,6 +3,7 @@ import babel from "rollup-plugin-babel"
 import commonjs from "@rollup/plugin-commonjs"
 import nodeResolve from "@rollup/plugin-node-resolve"
 import typescript from "@rollup/plugin-typescript"
+import { terser } from 'rollup-plugin-terser'
 
 export default defineConfig([
   // Commonjs
@@ -18,7 +19,8 @@ export default defineConfig([
       typescript(), // 编译typescript
       babel({
         exclude: 'node_modules/**', // 忽略node_modules文件夹
-      })
+      }),
+      terser(), // 压缩
     ]
   },
 ])
