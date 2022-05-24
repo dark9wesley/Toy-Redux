@@ -1,5 +1,14 @@
 import createStore from "./createStore";
+import applyMiddleware from "./applyMiddleware";
+import compose from "./compose";
+import bindActionCreators from "./bindActionCreators";
+import combineReducers from "./combineReducers";
 
-const a: number = 1
 
-console.log(createStore, a)
+export default {
+  createStore,
+  applyMiddleware,
+  compose,
+  bindActionCreators,
+  combineReducers,
+}
